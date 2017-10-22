@@ -18,6 +18,12 @@ Multi account support (Uses Tumblr's API)
 Low memory
 
 
+Found that following a ton of people 3 - 4 times increased the activity (likes and reblogs) on my blogs 
+so i added a new update that will auto follow other people. 
+Currently working on new features to remove double posts
+
+
+
 # Requisites
 
 import praw
