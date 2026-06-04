@@ -9,6 +9,18 @@ This is an older social-media automation demo. It is preserved as a portfolio ar
 
 Do not commit OAuth tokens, API keys, account credentials, cookies, or live account configuration. Run posting/follow automation only on accounts you control and in line with current platform terms and rate limits.
 
+The current `main.py` is intentionally offline-first. It demonstrates how posts
+would be classified from a local fixture and refuses live posting until the
+project is rebuilt against current Reddit and Tumblr APIs.
+
+## Offline demo
+
+```bash
+python3 main.py
+```
+
+Expected output includes three planned posts and `dry_run=true`.
+
 I made a bot that automates managing the Tumblrs in one convenient program. it can handle multiple accounts
 
 # What it does?
@@ -32,7 +44,7 @@ Currently working on new features to remove double posts
 
 
 
-# Requisites
+# Historical requisites
 
 import praw
 
@@ -51,7 +63,8 @@ from robobrowser import RoboBrowser
 import requests
 
 
-So u gotta install "praw", "tumblpy", and i believe configparser, threading, time, and random come preinstalled. 
+The archived live implementation used `praw`, `tumblpy`, and `robobrowser`.
+Those are not required for the current offline demo.
 
 
 
