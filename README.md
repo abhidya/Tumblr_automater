@@ -1,6 +1,14 @@
 # Tumblr_automater
 Uses Reddit to scrape top and trending posts and reposts them onto tumblrs
 
+## Archive status
+
+This is an older social-media automation demo. It is preserved as a portfolio archive; Reddit/Tumblr APIs, auth flows, and platform automation policies may have changed.
+
+## Credential hygiene and responsible use
+
+Do not commit OAuth tokens, API keys, account credentials, cookies, or live account configuration. Run posting/follow automation only on accounts you control and in line with current platform terms and rate limits.
+
 I made a bot that automates managing the Tumblrs in one convenient program. it can handle multiple accounts
 
 # What it does?
